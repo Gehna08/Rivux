@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# Python
+venv/
+bert_env/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Mac
+.DS_Store
+
+# AI models
+model/
+*.bin
+*.pt

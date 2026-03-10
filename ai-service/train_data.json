@@ -1,0 +1,3998 @@
+[
+  {
+    "text": "Users reporting occasional timeouts in dev environment. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in dev environment. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in dev environment. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in production. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in US region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in dev environment. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in APAC region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Checkout flow is failing for everyone in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in US region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in dev environment. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in APAC region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in EU region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in staging. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in EU region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in APAC region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in APAC region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in staging. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in APAC region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "API responses are noticeably slow in production. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in dev environment. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "API responses are noticeably slow in staging. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in production. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in US region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in US region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in dev environment. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in US region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in production. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in APAC region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Checkout flow is failing for everyone in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "The production database is unreachable in staging. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Help text formatting looks inconsistent in production. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in APAC region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in EU region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in production. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in production. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in production. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in US region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in production. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Button alignment slightly off on mobile in APAC region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in EU region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in dev environment. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in EU region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in EU region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in EU region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in EU region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in APAC region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in APAC region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in US region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "The production database is unreachable in US region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in US region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in APAC region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in dev environment. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in US region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in production. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Help text formatting looks inconsistent in EU region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in APAC region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in dev environment. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in APAC region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Button alignment slightly off on mobile in dev environment. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in dev environment. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in production. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in EU region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in EU region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in production. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in APAC region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in production. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in production. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in APAC region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in staging. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in APAC region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in dev environment. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in dev environment. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in staging. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in US region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in US region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in dev environment. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in staging. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in EU region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in dev environment. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in staging. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in staging. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in staging. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in US region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in dev environment. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Validation message wording could be improved in EU region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in production. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in dev environment. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in EU region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in production. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in US region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in APAC region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in EU region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in APAC region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in EU region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Minor typo found on settings page in US region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in dev environment. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in US region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in staging. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in staging. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in production. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in production. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in EU region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Validation message wording could be improved in APAC region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in dev environment. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in APAC region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in US region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in production. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in EU region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Dropdown icon appears misaligned in APAC region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in APAC region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in staging. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in APAC region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "File uploads are taking longer than usual in dev environment. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Dropdown icon appears misaligned in EU region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in US region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in US region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in dev environment. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in production. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in US region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in US region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in EU region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in staging. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "File uploads are taking longer than usual in production. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in EU region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in staging. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in US region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in APAC region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in EU region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in dev environment. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in production. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Minor typo found on settings page in staging. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in APAC region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in APAC region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in production. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in dev environment. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Button alignment slightly off on mobile in dev environment. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in dev environment. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in APAC region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in production. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Tooltip text is slightly misleading in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in dev environment. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in production. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in production. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in production. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in production. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in APAC region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in EU region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in production. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "File uploads are taking longer than usual in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in APAC region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "The production database is unreachable in staging. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in staging. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in US region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in production. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in EU region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in dev environment. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in EU region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in APAC region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in dev environment. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in APAC region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in APAC region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in production. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "The production database is unreachable in EU region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in APAC region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in US region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in production. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in staging. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in dev environment. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in APAC region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Minor typo found on settings page in US region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in staging. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in production. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in staging. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in EU region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in production. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in EU region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in US region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in production. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in dev environment. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in APAC region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Authentication service is not responding in US region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in EU region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in production. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "The production database is unreachable in EU region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in APAC region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in production. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in EU region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in EU region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in dev environment. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in dev environment. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in APAC region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in staging. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in EU region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in production. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in production. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in EU region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in dev environment. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in dev environment. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in production. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "File uploads are taking longer than usual in dev environment. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in US region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in US region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in US region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in EU region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in APAC region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in APAC region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in APAC region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in APAC region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in dev environment. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in dev environment. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in production. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in APAC region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in dev environment. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in staging. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in dev environment. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in US region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in production. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in production. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in APAC region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in APAC region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in US region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in US region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in production. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in US region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in EU region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in dev environment. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in APAC region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in production. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in staging. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in staging. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in production. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "File uploads are taking longer than usual in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Checkout flow is failing for everyone in EU region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in EU region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in production. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in dev environment. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in production. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in dev environment. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in dev environment. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in staging. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in production. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in staging. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in APAC region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in staging. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in APAC region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in APAC region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in APAC region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in staging. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in US region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in US region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in staging. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in APAC region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in US region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in US region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in production. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in dev environment. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in EU region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "API responses are noticeably slow in production. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in EU region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Authentication service is not responding in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in production. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in US region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in dev environment. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in APAC region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in production. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in EU region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in dev environment. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in APAC region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in staging. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in EU region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in APAC region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in dev environment. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in dev environment. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in US region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in APAC region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in APAC region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in APAC region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in US region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in production. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in production. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in US region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "File uploads are taking longer than usual in production. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in APAC region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in staging. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in APAC region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in production. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in EU region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in EU region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in production. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in dev environment. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in staging. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Checkout flow is failing for everyone in US region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in US region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "API responses are noticeably slow in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Authentication service is not responding in US region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "The production database is unreachable in dev environment. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in production. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in staging. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "File uploads are taking longer than usual in EU region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in staging. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in US region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in APAC region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in staging. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in US region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in EU region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Button alignment slightly off on mobile in EU region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Authentication service is not responding in staging. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in dev environment. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in US region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in APAC region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in dev environment. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in EU region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in EU region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in US region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Validation message wording could be improved in dev environment. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in production. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in APAC region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in staging. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Dropdown icon appears misaligned in dev environment. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in staging. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in dev environment. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Button alignment slightly off on mobile in APAC region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in dev environment. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "File uploads are taking longer than usual in staging. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in staging. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in dev environment. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in US region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in EU region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in production. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in US region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in production. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in staging. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Minor typo found on settings page in EU region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in EU region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "The production database is unreachable in APAC region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in staging. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in US region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in US region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Database replication lag detected in APAC region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in staging. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in production. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in EU region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in dev environment. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Tooltip text is slightly misleading in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in APAC region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in staging. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in production. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in EU region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Button alignment slightly off on mobile in APAC region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in staging. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in production. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in APAC region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in EU region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in staging. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Validation message wording could be improved in staging. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in EU region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Button alignment slightly off on mobile in US region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in APAC region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Checkout flow is failing for everyone in APAC region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in US region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in US region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Dropdown icon appears misaligned in production. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in dev environment. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in EU region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in dev environment. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in EU region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in US region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in US region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in production. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in dev environment. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in US region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Validation message wording could be improved in dev environment. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in APAC region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in EU region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Help text formatting looks inconsistent in EU region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in production. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in EU region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in staging. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Authentication service is not responding in staging. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in US region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in production. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in EU region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in staging. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in production. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in APAC region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in staging. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in production. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in US region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in US region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in dev environment. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in US region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in production. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in production. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in staging. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in production. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in US region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Database replication lag detected in dev environment. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Minor typo found on settings page in EU region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "File uploads are taking longer than usual in US region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in staging. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in APAC region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in dev environment. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in staging. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in dev environment. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in production. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in production. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in production. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in staging. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in APAC region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in EU region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Dropdown icon appears misaligned in staging. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in staging. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in production. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Validation message wording could be improved in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in staging. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in dev environment. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in US region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Database replication lag detected in APAC region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in dev environment. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in production. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in dev environment. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Database replication lag detected in staging. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in staging. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in staging. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in US region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in dev environment. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Button alignment slightly off on mobile in production. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in APAC region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "File uploads are taking longer than usual in EU region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Button alignment slightly off on mobile in APAC region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in dev environment. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in staging. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in US region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Minor typo found on settings page in APAC region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in dev environment. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in dev environment. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in dev environment. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in APAC region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in APAC region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in staging. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in EU region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in staging. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in dev environment. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in dev environment. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in staging. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in dev environment. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in dev environment. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in US region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "File uploads are taking longer than usual in staging. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in EU region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in dev environment. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Dropdown icon appears misaligned in production. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in US region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in dev environment. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Dropdown icon appears misaligned in dev environment. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in APAC region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in staging. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in APAC region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in staging. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in staging. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in staging. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in staging. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in APAC region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in staging. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in dev environment. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in US region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in dev environment. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in dev environment. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in dev environment. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in US region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in production. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "The production database is unreachable in production. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Help text formatting looks inconsistent in staging. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in US region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in production. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in dev environment. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in production. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in US region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in EU region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in dev environment. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in US region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in EU region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in production. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "The production database is unreachable in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in US region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in production. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in US region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in staging. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in staging. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in staging. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in APAC region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in EU region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in APAC region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in US region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in staging. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in dev environment. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in dev environment. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in staging. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in APAC region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in EU region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in staging. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in production. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in staging. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in dev environment. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in APAC region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in APAC region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in staging. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "The production database is unreachable in dev environment. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in production. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in EU region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in APAC region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in staging. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Button alignment slightly off on mobile in staging. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in staging. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in staging. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in staging. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in US region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in staging. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "The production database is unreachable in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "File uploads are taking longer than usual in EU region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in staging. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in staging. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in US region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in EU region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Cloud storage is inaccessible in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in US region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Tooltip text is slightly misleading in dev environment. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in US region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in dev environment. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in production. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in EU region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in US region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Button alignment slightly off on mobile in staging. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Help text formatting looks inconsistent in US region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in dev environment. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in EU region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in US region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in US region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in production. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Tooltip text is slightly misleading in dev environment. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in dev environment. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in APAC region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Minor typo found on settings page in US region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in production. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in EU region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in APAC region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in production. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in dev environment. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in production. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in US region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in APAC region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in APAC region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in production. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in US region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in dev environment. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in production. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in APAC region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in dev environment. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in EU region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Intermittent login failures reported in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in US region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in APAC region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Validation message wording could be improved in US region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in EU region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in EU region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in US region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in production. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Search results loading slower than expected in US region. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in staging. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in EU region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in US region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Help text formatting looks inconsistent in EU region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in APAC region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in APAC region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in APAC region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in production. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in EU region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in APAC region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in dev environment. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in dev environment. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Database replication lag detected in staging. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in staging. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in staging. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in production. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Database replication lag detected in dev environment. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Checkout flow is failing for everyone in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in US region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Payment processing has completely stopped in dev environment. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in staging. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in dev environment. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Button alignment slightly off on mobile in US region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in dev environment. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in APAC region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in staging. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Email notifications delayed in APAC region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in production. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in production. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in dev environment. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Help text formatting looks inconsistent in staging. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Validation message wording could be improved in APAC region. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in dev environment. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in production. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in staging. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Database replication lag detected in EU region. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in US region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in production. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in APAC region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in staging. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "High CPU usage observed on application server in dev environment. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in dev environment. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Intermittent login failures reported in EU region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in APAC region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "API is returning 500 errors for all requests in dev environment. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in staging. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Dropdown icon appears misaligned in US region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Users reporting occasional timeouts in dev environment. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in dev environment. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in staging. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in dev environment. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Payment processing has completely stopped in production. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in EU region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in production. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in staging. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in production. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in US region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Help text formatting looks inconsistent in APAC region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Search functionality is broken across the platform in production. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in staging. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in APAC region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in dev environment. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "The production database is unreachable in staging. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Dropdown icon appears misaligned in dev environment. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Database replication lag detected in dev environment. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in APAC region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Database replication lag detected in US region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Email notifications delayed in APAC region. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "File uploads are taking longer than usual in staging. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in staging. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in US region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Tooltip text is slightly misleading in EU region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Color contrast issue in dark mode in US region. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in staging. This started after the latest deployment.",
+    "label": 2
+  },
+  {
+    "text": "Authentication service is not responding in dev environment. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in dev environment. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in production. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in APAC region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "File uploads are taking longer than usual in production. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "High CPU usage observed on application server in production. Engineering team is investigating.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Button alignment slightly off on mobile in EU region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Orders are not being recorded in staging. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "The production database is unreachable in US region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in APAC region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "API responses are noticeably slow in APAC region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "The production database is unreachable in production. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "API responses are noticeably slow in staging. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Cloud storage is inaccessible in APAC region. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in dev environment. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Search results loading slower than expected in APAC region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in production. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "The production database is unreachable in staging. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in dev environment. Monitoring alerts were triggered.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in EU region. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in EU region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in EU region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "API responses are noticeably slow in dev environment. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in APAC region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "Users reporting occasional timeouts in APAC region. On-call engineer is looking into it.",
+    "label": 2
+  },
+  {
+    "text": "API is returning 500 errors for all requests in EU region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in APAC region. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Main website is showing a blank page in staging. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in EU region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Main website is showing a blank page in APAC region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in production. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in production. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in dev environment. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in EU region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in staging. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "API responses are noticeably slow in US region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Profile picture preview is not refreshing immediately in production. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in US region. Business operations are impacted.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in EU region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in US region. Several users have reported this.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in production. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in staging. On-call engineer is looking into it.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Cloud storage is inaccessible in EU region. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Help text formatting looks inconsistent in APAC region. Customers are unable to proceed.",
+    "label": 3
+  },
+  {
+    "text": "API responses are noticeably slow in EU region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Dashboard loads slowly during peak hours in dev environment. Issue was noticed during routine monitoring.",
+    "label": 2
+  },
+  {
+    "text": "Button alignment slightly off on mobile in US region. Issue was noticed during routine monitoring.",
+    "label": 3
+  },
+  {
+    "text": "High CPU usage observed on application server in EU region. Customers are unable to proceed.",
+    "label": 2
+  },
+  {
+    "text": "Color contrast issue in dark mode in staging. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in dev environment. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Authentication service is not responding in production. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Checkout flow is failing for everyone in APAC region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in APAC region. Business operations are impacted.",
+    "label": 3
+  },
+  {
+    "text": "Main website is showing a blank page in EU region. Issue was noticed during routine monitoring.",
+    "label": 1
+  },
+  {
+    "text": "Users reporting occasional timeouts in APAC region. This is affecting multiple customers.",
+    "label": 2
+  },
+  {
+    "text": "Orders are not being recorded in dev environment. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in APAC region. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Help text formatting looks inconsistent in EU region. Several users have reported this.",
+    "label": 3
+  },
+  {
+    "text": "Footer link redirects incorrectly but page works in production. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "API is returning 500 errors for all requests in production. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Minor typo found on settings page in US region. Engineering team is investigating.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in dev environment. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Dropdown icon appears misaligned in APAC region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Button alignment slightly off on mobile in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Payment processing has completely stopped in production. Customers are unable to proceed.",
+    "label": 1
+  },
+  {
+    "text": "Search results loading slower than expected in staging. Support team escalated the issue.",
+    "label": 2
+  },
+  {
+    "text": "Intermittent login failures reported in staging. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Users are unable to log in in dev environment. This started after the latest deployment.",
+    "label": 1
+  },
+  {
+    "text": "Color contrast issue in dark mode in EU region. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Users are unable to log in in APAC region. Support team escalated the issue.",
+    "label": 1
+  },
+  {
+    "text": "Tooltip text is slightly misleading in US region. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in production. On-call engineer is looking into it.",
+    "label": 3
+  },
+  {
+    "text": "Minor typo found on settings page in APAC region. This started after the latest deployment.",
+    "label": 3
+  },
+  {
+    "text": "Spacing looks uneven on dashboard cards in staging. Support team escalated the issue.",
+    "label": 3
+  },
+  {
+    "text": "Checkout flow is failing for everyone in production. This is affecting multiple customers.",
+    "label": 1
+  },
+  {
+    "text": "Search functionality is broken across the platform in APAC region. Engineering team is investigating.",
+    "label": 1
+  },
+  {
+    "text": "Users are unable to log in in APAC region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Orders are not being recorded in APAC region. Business operations are impacted.",
+    "label": 1
+  },
+  {
+    "text": "Validation message wording could be improved in staging. This is affecting multiple customers.",
+    "label": 3
+  },
+  {
+    "text": "Some requests are retrying automatically in APAC region. Monitoring alerts were triggered.",
+    "label": 2
+  },
+  {
+    "text": "Email notifications delayed in dev environment. Several users have reported this.",
+    "label": 2
+  },
+  {
+    "text": "Search functionality is broken across the platform in US region. Monitoring alerts were triggered.",
+    "label": 1
+  },
+  {
+    "text": "Database replication lag detected in production. This is affecting multiple customers.",
+    "label": 2
+  }
+]
