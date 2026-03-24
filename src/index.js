@@ -1,23 +1,30 @@
+//uvicorn main:app --reload --host 0.0.0.0 --port 8000
 // Load environment variables from a .env file
 require("dotenv").config();
 
+//DOUBT 1
+const { getCurrentResponder } = require("./services/onCallService");
+
 // Import Express to create the server
 const express = require("express");
+// Initialize Express app
+const app = express();
 // Import CORS middleware to handle cross-origin requests
 const cors = require("cors");
+// Enable CORS for all routes
+app.use(cors());
+
 // Import database connection pool (PostgreSQL)
 const pool = require("./config/db");
 
 const axios = require("axios");
 const { protect } = require("./middleware/authMiddleware");
+const { runEscalationCheck } = require("./services/escalationService");
 
-// Initialize Express app
-const app = express();
-
-// Enable CORS for all routes
-app.use(cors());
 // Enable parsing of JSON request bodies
 app.use(express.json());
+const redisClient = require("./config/redis");
+const cacheMiddleware = require("./middleware/cacheMiddleware");
 
 const authRoutes = require("./routes/authRoutes");
 app.use("/api/auth", authRoutes);
@@ -150,17 +157,60 @@ async function detectPatterns() {
 }
 
 // Function to find similar incidents using Vector Similarity
-async function findSimilarIncidents(embedding, currentId) {
-    // We use the <=> operator for cosine distance (smaller is more similar)
+async function findSimilarIncidents(embedding, currentId, title) {
+  try {
+    const threshold = 0.25;
+
+    // Extract keywords from title (simple but effective)
+    const keywords = title.toLowerCase().split(" ");
+
     const result = await pool.query(
-        `SELECT id, title, description, status, (embedding <=> $1) as distance 
-         FROM incidents 
-         WHERE id != $2 AND embedding IS NOT NULL
-         ORDER BY distance ASC 
-         LIMIT 3`,
-        [JSON.stringify(embedding), currentId]
+      `SELECT 
+          id, 
+          title, 
+          description, 
+          status,
+          project_id,
+          (embedding <=> $1) as distance
+       FROM incidents 
+       WHERE id != $2 
+         AND embedding IS NOT NULL
+         
+         -- ✅ SAME PROJECT (VERY IMPORTANT)
+         AND project_id = (
+           SELECT project_id FROM incidents WHERE id = $2
+         )
+
+         -- ✅ EMBEDDING FILTER
+         AND (embedding <=> $1) < $3
+
+         -- ✅ KEYWORD FILTER (at least 1 match)
+         AND (
+           ${keywords.map((_, i) => `title ILIKE $${i + 4}`).join(" OR ")}
+         )
+
+       ORDER BY distance ASC 
+       LIMIT 3`,
+      [
+        JSON.stringify(embedding),
+        currentId,
+        threshold,
+        ...keywords.map(k => `%${k}%`)
+      ]
     );
-    return result.rows;
+
+    // ✅ Add similarity confidence
+    return result.rows.map(row => ({
+      ...row,
+      similarity_level:
+        row.distance < 0.2 ? "High" :
+        row.distance < 0.25 ? "Medium" : "Low"
+    }));
+
+  } catch (err) {
+    console.error("Error finding similar incidents:", err.message);
+    return [];
+  }
 }
 
 // Root endpoint to check if server is running
@@ -169,31 +219,31 @@ app.get("/", (req, res) => {
 });
 
 // Endpoint to get incident statistics
-app.get("/incidents/stats", async (req, res) => {
-    try {
-      // Total incidents
-      const totalResult = await pool.query("SELECT COUNT(*) FROM incidents");
+app.get("/incidents/stats", cacheMiddleware(60), async (req, res) => {
+  try {
+    // Total incidents
+    const totalResult = await pool.query("SELECT COUNT(*) FROM incidents");
 
-      // Count by status
-      const statusResult = await pool.query(
-        "SELECT status, COUNT(*) FROM incidents GROUP BY status"
-      );
+    // Count by status
+    const statusResult = await pool.query(
+      "SELECT status, COUNT(*) FROM incidents GROUP BY status"
+    );
 
-      // Count by severity
-      const severityResult = await pool.query(
-        "SELECT severity, COUNT(*) FROM incidents GROUP BY severity"
-      );
+    // Count by severity
+    const severityResult = await pool.query(
+      "SELECT severity, COUNT(*) FROM incidents GROUP BY severity"
+    );
 
-      res.json({
-        total: totalResult.rows[0].count,
-        byStatus: statusResult.rows,
-        bySeverity: severityResult.rows,
-      });
+    res.json({
+      total: totalResult.rows[0].count,
+      byStatus: statusResult.rows,
+      bySeverity: severityResult.rows,
+    });
 
-    } catch (err) {
-      console.error(err);
-      res.status(500).send("Error fetching stats");
-    }
+  } catch (err) {
+    console.error(err);
+    res.status(500).send("Error fetching stats");
+  }
 });
 
 // Endpoint to get a single incident by ID
@@ -409,6 +459,30 @@ app.get("/analytics/clusters", async (req, res) => {
     }
 });
 
+// Endpoint to create a shift - add this near your other POST routes
+// Endpoint to create a shift - add this near your other POST routes
+app.post("/api/on-call/shifts", async (req, res) => {
+  // 1. Destructure the values from the request body
+  const { project_id, user_id, start_time, end_time } = req.body;
+
+  // 2. Add a simple check to make sure they aren't missing
+  if (!project_id || !user_id || !start_time || !end_time) {
+      return res.status(400).json({ error: "Missing required fields: project_id, user_id, start_time, or end_time" });
+  }
+
+  try {
+      const result = await pool.query(
+          `INSERT INTO on_call_schedules (project_id, user_id, start_time, end_time)
+           VALUES ($1, $2, $3, $4) RETURNING *`,
+          [project_id, user_id, start_time, end_time]
+      );
+      res.status(201).json(result.rows[0]);
+  } catch (err) {
+      console.error("Database Error:", err.message); // This shows the REAL error in your terminal
+      res.status(500).json({ error: "Failed to create on-call shift", details: err.message });
+  }
+});
+
 app.post("/incidents", async (req, res) => {
   const { title, description, environment = "Prod", project_id, created_by } = req.body;
 
@@ -416,11 +490,9 @@ app.post("/incidents", async (req, res) => {
     return res.status(400).json({ error: "project_id is required" });
   }
 
-  // --- 1. SET DEFAULTS (Fallback) ---
-  // Use your local function to guess severity if AI fails
+  // --- 1. SET DEFAULTS ---
   let severity = calculateSeverity(title, description); 
-  // Default empty vector (e.g., 1536 zeros for OpenAI/typical models)
-  let embedding = new Array(1536).fill(0); 
+  let embedding = new Array(768).fill(0);
   let aiStatus = "success";
 
   try {
@@ -428,53 +500,52 @@ app.post("/incidents", async (req, res) => {
     const aiResponse = await axios.post("http://127.0.0.1:8000/analyze", {
       text: `${title} ${description}`
     });
-    
-    // Update with real AI data if successful
     severity = aiResponse.data.severity;
     embedding = aiResponse.data.embedding;
-
   } catch (err) {
-    console.warn("⚠️ AI Service offline. Falling back to local severity and zero-vector.");
+    console.warn("⚠️ AI Service offline. Falling back to local severity.");
     aiStatus = "offline_fallback";
-    // We do NOT return here; we want the code to continue to the DB insert below
   }
 
   try {
-    // --- 3. DATABASE INSERTION ---
+    // --- 3. ON-CALL AUTO-ASSIGNMENT ---
+    // Check if someone is on call for this project right now
+    const autoAssignedId = await getCurrentResponder(project_id);
+    const finalAssignedTo = req.body.assigned_to || autoAssignedId;
+
+    // --- 4. DATABASE INSERTION ---
     const slaDeadline = calculateSlaDeadline(severity);
-    // Get the user ID from the auth middleware (usually req.user)
-    const creatorId = req.user?.id || req.body.created_by || null; 
+    const creatorId = req.user?.id || created_by || null; 
 
     const result = await pool.query(
-      `INSERT INTO incidents (title, description, severity, status, sla_deadline, embedding, environment, project_id, created_by)
-       VALUES ($1, $2, $3, 'Open', $4, $5, $6, $7, $8)
+      `INSERT INTO incidents (title, description, severity, status, sla_deadline, embedding, environment, project_id, created_by, assigned_to)
+       VALUES ($1, $2, $3, 'Open', $4, $5, $6, $7, $8, $9)
        RETURNING *`,
-      [title, description, severity, slaDeadline, JSON.stringify(embedding), environment, project_id, creatorId]
+      [title, description, severity, slaDeadline, JSON.stringify(embedding), environment, project_id, creatorId, finalAssignedTo]
     );
 
     const newIncident = result.rows[0];
 
-    // --- 4. SEMANTIC SEARCH (Similarity) ---
-    // This only makes sense if the embedding isn't all zeros
-    let similarCases = [];
-    if (aiStatus === "success") {
-      const similarResult = await pool.query(
-        `SELECT id, title, (embedding <=> $1) as distance 
-         FROM incidents 
-         WHERE id != $2 AND embedding IS NOT NULL
-         ORDER BY distance ASC LIMIT 3`,
-        [JSON.stringify(embedding), newIncident.id]
-      );
-      similarCases = similarResult.rows;
+    // --- 5. LOGGING & INSIGHTS ---
+    if (autoAssignedId && !req.body.assigned_to) {
+        await logActivity(newIncident.id, "Incident Auto-Assigned", null, { assigned_to: autoAssignedId });
     }
-
+    let similarCases = [];
+  if (aiStatus === "success") {
+  similarCases = await findSimilarIncidents(
+    embedding,
+    newIncident.id,
+    title
+  );
+}
     res.status(201).json({
       incident: newIncident,
       ai_insights: {
         status: aiStatus,
         predicted_severity: severity,
         similar_cases: similarCases
-      }
+      },
+      on_call: autoAssignedId ? "Auto-assigned to active responder" : "No active responder found"
     });
 
   } catch (dbErr) {
@@ -482,7 +553,6 @@ app.post("/incidents", async (req, res) => {
     res.status(500).json({ error: "Database error", details: dbErr.message });
   }
 });
-
 // Endpoint to assign an incident to a user
 app.post("/incidents/:id/assign", async (req, res) => {
     try {
@@ -909,7 +979,10 @@ app.delete("/incidents/:id", async (req, res) => {
       res.status(500).send("Error deleting incident");
     }
 });
-
+// Escalation background worker
+setInterval(() => {
+  runEscalationCheck();
+}, 5 * 60 * 1000); // every 5 minutes
 // Start server on port 3000
 const PORT = 3000;
 app.listen(PORT, () => {
